@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+  
+li {
+    float: left;
+}
+
+li img {
+    max-width: 32px;
+    top: 0.5em;
+    position: relative;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header {
+    text-align: right;
+    color: white;
+    background-image: url('../img/bg-hero.png');
+    padding: 6em 2em 2em 2em;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+#intro {
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+}
+.subtitle {
+    font-weight: 400;
+  }
+
+section#date {
+    margin-top: 2em;
+    text-align: center;
+}
+  
+
+.event {
+    top: 99px;
+    left: 0px;
+    width: 1920px;
+    height: auto;  
+}
+
+.next-meeting {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 3.125rem;
+    white-space: nowrap;
+    left: 0px;
+  }
+
+  .next-meeting h3, .next-meeting h5 {
+    margin-bottom: 0.6em;
+  }
+
+  #next-meeting{
+    text-align: center;
+  }
+
+  #next-meeting > * {
+    vertical-align: middle;
+  }
+  
+  .detail-meeting{
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .all-events {
+    display: inline-block;
+  }
+  
+  .all-events img {
+    width: 85%;
+  }
+
+  .date{
+    margin-top: 2em;
+  }
+  .events{
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  
+  #eventos h2 {
+    margin-bottom: 1em;
+  }
+  
+  #eventos h3 {
+    margin: 1em auto;
+  }
+
+  .detail-meeting{
+    display:inline-block;
+  }
+
+  .footer {
+    background: #000f08;
+    color: #ffffff;
+  }
+  
+  .footer a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+
+  footer {
+    left: 0px;
+    background: #080808 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    padding: 3.125rem;
+    margin-top: 5rem;
+  }
+  
+.article {
+  max-width: 820px;
+  margin: 100px auto 0;
+}
